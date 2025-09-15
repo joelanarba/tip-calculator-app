@@ -12,7 +12,7 @@
 </head>
 <body>
   <main>
-    <div class="img-container">
+    <div class="image-container">
       <img src="images/logo.svg" alt="logo">
     </div>
     
@@ -51,16 +51,20 @@
 
       <div class="tip-summary">
         <div class="tip-amount">
-          <h4>Tip Amount</h4>
-          <p>/ person</p>
-          <span><img src="images/icon-dollar.svg" alt="">0.00</span>
+          <div>
+            <h4>Tip Amount</h4>
+            <p>/ person</p>
+          </div>
+          <span id="tip-amount">$0.00</span>
         </div>
         <div class="total-amount">
-          <h4>Total</h4>
-          <p>/ person</p>
-          <span><img src="images/icon-dollar.svg" alt="">0.00</span>
+          <div>
+            <h4>Total</h4>
+            <p>/ person</p>
+          </div>
+          <span id="total-amount">$0.00</span>
         </div>
-        <button type="button">Reset</button>
+        <button type="button" id="reset-btn">Reset</button>
       </div>
     </section>
   </main>
